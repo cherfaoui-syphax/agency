@@ -11,6 +11,15 @@
 
 }
 
+.dark-mode #logo {
+  filter: invert(1);
+}
+
+#logo {
+  transition : filter 200ms linear;
+}
+
+
 
 
 .dark-mode .card p , .dark-mode .work , .dark-mode .about {
